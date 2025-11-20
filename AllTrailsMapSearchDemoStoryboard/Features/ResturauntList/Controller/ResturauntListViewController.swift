@@ -52,6 +52,7 @@ class ResturauntListViewController: UIViewController {
     }
     
     func setupView() {
+        activityView.isHidden = true
         mapView.isHidden = true
         tableView.isHidden = false
     }
@@ -85,9 +86,9 @@ class ResturauntListViewController: UIViewController {
     }
     
     func fetchData() {
-        activityView.isHidden = false
         Task {
             if let coordinate = locationManager?.location?.coordinate {
+                activityView.isHidden = false
                 await performNearbySearch(center: coordinate, radius: 500.0)
             }
         }
