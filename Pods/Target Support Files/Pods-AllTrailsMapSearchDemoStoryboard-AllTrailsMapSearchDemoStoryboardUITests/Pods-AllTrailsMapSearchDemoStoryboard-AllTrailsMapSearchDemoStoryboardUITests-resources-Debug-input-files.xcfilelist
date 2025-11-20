@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-AllTrailsMapSearchDemoStoryboard-AllTrailsMapSearchDemoStoryboardUITests/Pods-AllTrailsMapSearchDemoStoryboard-AllTrailsMapSearchDemoStoryboardUITests-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/GoogleMaps/GoogleMapsResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/GooglePlaces/GooglePlacesResources.bundle
